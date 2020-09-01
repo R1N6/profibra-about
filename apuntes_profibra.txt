@@ -1,0 +1,29 @@
+*Hacer funcionar el carrusel de imágenes - 1 Jonathan x
+
+*Sección en inicio con ventajas de fibra de vidrio - 1 persona
+
+*Clientes: - 1 Rodrigo Villegas
+   3 columnas
+   Logotipos con enlaces a los sitios web de los hoteles
+
+*Proyectos se cambiará a productos:
+   Catálogo de categorías general - 1 persona
+   Catálogo de categoría individual(plantilla) - 1 persona
+   Ficha detallada para cada producto(plantilla) - 1 persona
+      Textura
+      Contexto del producto
+      Color
+      Cliente
+      Ciudad del cliente
+
+*FAQ en el apartado de contacto - 1 Lara x
+
+*Funcionalidad de contacto presente en todas las vistas - 1 persona
+
+*Google maps - 1 David x
+
+*Agregar la misión y la visión en la página de inicio, siguiendo un diseño
+ de 4 paneles - 1 persona
+
+*Hacer una página donde se explique qué es el material que se ofrece, junto con sus
+ventajas - 1 persona
