@@ -68,3 +68,71 @@ html, body {
   .left-link, .right-link {
     font-family: 'Merriweather', serif;
   }
+
+  /*    footer    */
+  #futer{
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  #fCol1{
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+  }
+
+  #fCol2{
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+  }
+
+  #fCol3-0{
+    display: flex;
+  }
+
+  #fCol3-1{
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+  }
+
+  #redez{
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+    width: 30%;
+  }
+
+  .blanco{
+    color: #fcf7f9;
+  }
+
+  footer{
+    position: relative;
+    height: auto;
+    width: 100%;
+    color: #5EABC9;
+    display: flex;
+    background-color: #080403;
+  }
+  .fImg{
+    float: right;
+    display: block;
+    height: 40px;
+    width:  40px;
+  }
+  /*    footer    */
