@@ -1,0 +1,96 @@
+#main-content {
+    margin-top: 7.4vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    height: 200%;
+    background-color: rgb(33, 54, 83);
+}
+
+#header-text {
+    width: 100%;
+    height: 7%;
+    background-color: silver;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+
+}
+
+#upper-text {
+    width: 100%;
+    height: 43%;
+    background-color: salmon;
+}
+
+#history-text {
+    width: 80%;
+    height: 50%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#team-picture {
+    width: 100%;
+    height: 50%;
+    background-color: olive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#team-picture img {
+    display: block;
+    width: 60%;
+    height: 80%;
+}
+
+#lower-text {
+    width: 100%;
+    height: 50%;
+    background-color: coral;
+}
+
+#mision-and-vision {
+    width: 100%;
+    height: 50%;
+    background-color: lightsteelblue;
+    display: flex;
+}
+
+#mision-div {
+    width: 50%;
+    height: 100%;
+    background-color: darkolivegreen;
+    display: flex column;
+}
+
+#vision-div {
+    width: 50%;
+    height: 100%;
+    background-color: darkorchid;
+    display: flex;
+    flex-flow: column;
+}
+
+.title-section {
+    width: 100%;
+    height: 15%;
+    background-color: mediumseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section {
+    width: 100%;
+    height: 85%;
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
