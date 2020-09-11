@@ -58,13 +58,12 @@ html, body {
 }
 
 .iconos_RS{
-    background-color: #fff;
     width:  100px;
     height: 100px;
     margin-top:2em;
     margin-left: auto;
     margin-right: auto;
-   
+
 
 }
 
@@ -91,4 +90,16 @@ html, body {
 
     flex-wrap: wrap;
     align-content: space-around;
+}
+
+#ctel{
+  background-image: url(../image/iconos/telefono_RS.png);
+}
+
+#cmail{
+  background-image: url(../image/iconos/email_RS.png);
+}
+
+#cmaps{
+  background-image: url(../image/iconos/ubicacion1_RS.png);
 }
