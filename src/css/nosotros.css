@@ -24,15 +24,7 @@
     background-color: salmon;
 }
 
-#history-text {
-    width: 80%;
-    height: 50%;
-    background-color: purple;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 
 #team-picture {
     width: 100%;
@@ -49,10 +41,13 @@
     height: 80%;
 }
 
-#lower-text {
-    width: 100%;
+#history-text {
+    width: 80%;
     height: 50%;
     background-color: coral;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 #mision-and-vision {
