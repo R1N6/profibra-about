@@ -14,6 +14,7 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/correo.js"></script>
     <link type="text/css"  rel="stylesheet" href="../css/contacto.css">
 
 </head>
@@ -31,10 +32,39 @@
     </div>
   </div>
   <!--Barra de navegación-->
-  <div class="container-lg Contenido">
 
-    <div id="div_Mapa">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.4981550520497!2d-103.20927328550434!3d20.567704386249993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f4ac4e7e042c1%3A0x56ec048079fa8865!2sCalle+Ernesto+Che+Guevara+25%2C+La+Punta%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1536675787360" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" id="bmail" data-toggle="modal" data-target="#fraim"></button>
+
+
+
+
+  <div class="container Contenido">
+    <!-- Modal -->
+    <div id="fraim" class="modal fade" role="dialog">
+      <div class="modal-dialog b">
+
+        <!-- Modal content-->
+        <div class="modal-content b">
+
+
+
+
+            <iframe src="correo.html" id="freim"></iframe>
+
+        </div>
+      </div>
+    </div>
+    <script>
+      var _theframe = document.getElementById("freim");
+      _theframe.contentWindow.location.href = _theframe.src;
+    </script>
+      <div id="div_Mapa">
+      <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.4981550520497!2d-103.20927328550434!3d20.567704386249993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f4ac4e7e042c1%3A0x56ec048079fa8865!2sCalle+Ernesto+Che+Guevara+25%2C+La+Punta%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1536675787360" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      <script>
+        var _theframe = document.getElementById("mapa");
+        _theframe.contentWindow.location.href = _theframe.src;
+      </script>
     </div>
     <div class="row">
       <div class="col-sm-3 Casilla container">
@@ -54,76 +84,115 @@
         <div class="iconos_RS" id="cmail"></div>
         <p class="informacion_RS text-wrap"><a href="mailto:profibra@live.com">profibra@live.com</a></p>
       </div>
-
-
-
     </div>
 
     <div id="FAQ">
       <h1 class="text-center text-info display-3">FAQ</h1>
-      <div class="card">
-        <div class="card-header">
-          <h4><a class="card-link text-info" data-toggle="collapse" href="#P1">
-            Q: ¿Qué formas pueden realizar?
-          </a></h4>
-        </div>
-        <div id="P1" class="collapse" data-parent="#FAQ">
-          <div class="card-body text-justify" style="font-size:115%;">
-            A: Se puede crear casi cualquier forma y, en estas
-               se pueden agregas desde detalles pequeños hasta grandes patrones. Por
-               ejemplo vigas, troncos, rocas, cascadas, estructuras monumentales, terrazas
-               pergoladas, macetas, puertas y cualquier tipo de diseño en fibra de vidrio,
-               siempre reproduciendo el material deseado a cualquier diámetro, altura y escala.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <h4><a class="card-link text-info" data-toggle="collapse" href="#P2">
-            Q: ¿Qué textura tiene la fibra de vidrio?
-          </a></h4>
-        </div>
-        <div id="P2" class="collapse" data-parent="#FAQ">
-          <div class="card-body text-justify" style="font-size:115%;">
-            A: La fibra de vidrio provee de gran libertad en cuanto la textura,
-            eso mezclando la misma con otros materiales y colores pueden generar
-            texturas muy similares a otras más naturales; Así como la roca,
-            madera, bambú, entre otros.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <h4><a class="card-link text-info" data-toggle="collapse" href="#P3">
-            Q: ¿En qué se especializan?
-          </a></h4>
-        </div>
-        <div id="P3" class="collapse" data-parent="#FAQ">
-          <div class="card-body text-justify" style="font-size:115%;">
-            A: La empresa tiene enfoque en el mercado de la construcción,
-            específicamente en el ramo del diseño de exteriores, trabajando
-            para cadenas hoteleras, desarrollos residenciales, parques temáticos,
-            entre otros.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <h4><a class="card-link text-info" data-toggle="collapse" href="#P4">
-            Q: ¿Por qué usar fibra de vidrio en lugar de elementos natrurales?
-          </a></h4>
-        </div>
-        <div id="P4" class="collapse" data-parent="#FAQ">
-          <div class="card-body text-justify" style="font-size:115%;">
-            A: La implementación de la fibra de vidrio tiene la ventaja de
-            resistir al clima, así como de la durabilidad y tiempos entre cada
-            servicio de mantenimiento. La fibra de vidrio tiene una vida útil
-            de hasta 50 años según las condiciones en que esta se encuentre.
-          </div>
-        </div>
-      </div>
-     </div>
-
+<div class="card">
+  <div class="card-header">
+    <h4><a class="card-link text-info" data-toggle="collapse" href="#P1">
+      Q: ¿Qué es la fibra de vidrio?
+    </a></h4>
+  </div>
+  <div id="P1" class="collapse" data-parent="#FAQ">
+    <div class="card-body text-justify" style="font-size:115%;">
+      A: La fibra de vidrio es un material que consta de numerosos filamentos cerámicos
+      basados en dióxido de silicio extremadamente finos.
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <h4><a class="card-link text-info" data-toggle="collapse" href="#P2">
+      Q: ¿Cómo se trabaja?
+    </a></h4>
+  </div>
+  <div id="P2" class="collapse" data-parent="#FAQ">
+    <div class="card-body text-justify" style="font-size:115%;">
+      A: Se emplean polímeros acelerados junto con un catalizador, posterior se
+      emplea un modelo para crear el molde; En el molde se agregan películas de
+      ceras desmoldantes y para reforzar, enseguida la fibra de vidrio misma junto
+      con la pintura y la resina para tomar la forma deseada.
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <h4><a class="card-link text-info" data-toggle="collapse" href="#P3">
+      Q: ¿Cuánta durabilidad tiene?
+    </a></h4>
+  </div>
+  <div id="P3" class="collapse" data-parent="#FAQ">
+    <div class="card-body text-justify" style="font-size:115%;">
+      A: La fibra de vidrio tiene una vida útil
+      de hasta 50 años según las condiciones en que esta se encuentre.
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <h4><a class="card-link text-info" data-toggle="collapse" href="#P4">
+      Q: ¿En qué la puedo utilizar?
+    </a></h4>
+  </div>
+  <div id="P4" class="collapse" data-parent="#FAQ">
+    <div class="card-body text-justify" style="font-size:115%;">
+      A: La fibra de vidrio es perfecta para crear atmosferas completas.
+      Tenemos experiencia en el ámbito ornamental, creando desde macetas,
+      estatuas o muros y celosías. Tome como ejemplo nuestra página de productos.
+    </div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <h4><a class="card-link text-info" data-toggle="collapse" href="#P5">
+      Q: ¿Qué ventajas tiene por sobre la madera y otros recubrimientos plásticos?
+    </a></h4>
+  </div>
+  <div id="P5" class="collapse" data-parent="#FAQ">
+    <div class="card-body text-justify" style="font-size:115%;">
+      <ul>
+        <li>   Resistencia contra minerales tales como la sal. </li>
+        <li>   Variedad de usos.</li>
+        <li>   Poco mantenimiento.</li>
+        <li>   Durabilidad.</li>
+        <li>   Ecológico.</li>
+        <li>   Aislamiento térmico.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <h4><a class="card-link text-info" data-toggle="collapse" href="#P6">
+      Q: ¿Qué diseños se pueden realizar?
+    </a></h4>
+  </div>
+  <div id="P6" class="collapse" data-parent="#FAQ">
+    <div class="card-body text-justify" style="font-size:115%;">
+      A: Se puede crear casi cualquier forma y, en estas
+         se pueden agregas desde detalles pequeños hasta grandes patrones. Por
+         ejemplo vigas, troncos, rocas, cascadas, estructuras monumentales, terrazas
+         pergoladas, macetas, puertas y cualquier tipo de diseño en fibra de vidrio,
+         siempre reproduciendo el material deseado a cualquier diámetro, altura y escala.
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <h4><a class="card-link text-info" data-toggle="collapse" href="#P7">
+      Q: ¿Cuál es la relación costo a beneficio?
+    </a></h4>
+  </div>
+  <div id="P7" class="collapse" data-parent="#FAQ">
+    <div class="card-body text-justify" style="font-size:115%;">
+      A: En Profibra nos orgullecemos de emplear materia prima de la más alta calidad,
+      cuando nuestros productos tienen un tiempo de vida útil superior, llegando a los 50
+      años con el mantenimiento correcto que es mayormente estético.
+    </div>
+  </div>
+</div>
+</div>
   </div>
     <!--             FOOTER                  -->
          <footer class="">
