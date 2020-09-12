@@ -10,9 +10,59 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/carrucel.js"></script>
+    <!-- Compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!-- Minified JS library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
   </head>
 
   <body>
+
+        <!-- Carrucel-->
+
+        <div id="Fondo_contenedor" style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.548); position: fixed; justify-content: center; align-items: center;display: none; z-index: 501;" >
+          <div id="Fondo_contenedor_clickeable" style="width: 100%; height: 100%; position: absolute; z-index: 1;" onclick="ocultar_o_mostrar_Carrucel()">
+          </div>
+          <div id="contenedor_Carrucel" style="z-index: 2; position: absolute; max-width: 1000px;">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+          
+              <!-- Wrapper for slides -->
+               <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="" alt=""  id="img_contenedor1">
+                      <div class="carousel-caption">
+                      </div>
+                  </div>
+            
+                 <div class="item">
+                      <img src="" alt=""  id="img_contenedor2">
+                      <div class="carousel-caption">
+                      </div>
+                  </div>
+                  
+                  <div class="item">
+                      <img src="" alt=""  id="img_contenedor3">
+                      <div class="carousel-caption">
+                      </div>
+                  </div>
+              </div>
+          
+              <!-- Controls -->
+              <a class="left carousel-control" onclick="Prev()" data-slide="prev" id="id_prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" onclick="Next()" data-slide="next" id="id_next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+          </div>
+      
+        </div>
+        </div>
+        <!-- Carrucel-->
+
     <!--Barra de navegación-->
     <div id="nav-bar">
       <div id="nav-bar-left">
@@ -32,27 +82,27 @@
     <!--Barra de navegación-->
     <div id="main-content">
       <div id="catalog-zone">
-        <div class="product-container"><img src="../image/productos/bambu.jpg"></div>
-        <div class="product-container"><img src="../image/productos/barandal.jpg"></div>
-        <div class="product-container"><img src="../image/productos/celosia.jpg"></div>
-        <div class="product-container"><img src="../image/productos/duela.jpg"></div>
-        <div class="product-container"><img src="../image/productos/estatua.jpg"></div>
-        <div class="product-container"><img src="../image/productos/louver.jpg"></div>
-        <div class="product-container"><img src="../image/productos/maceta.jpg"></div>
-        <div class="product-container"><img src="../image/productos/mampara.jpg"></div>
-        <div class="product-container"><img src="../image/productos/moldura.JPG"></div>
-        <div class="product-container"><img src="../image/productos/muro.jpg"></div>
-        <div class="product-container"><img src="../image/productos/pergolado-fajillas.jpg"></div>
-        <div class="product-container"><img src="../image/productos/pergolado-troncos.jpg"></div>
-        <div class="product-container"><img src="../image/productos/pergolado-vigas.jpg"></div>
-        <div class="product-container"><img src="../image/productos/piedra.jpg"></div>
-        <div class="product-container"><img src="../image/productos/porton.jpg"></div>
-        <div class="product-container"><img src="../image/productos/relieve.jpg"></div>
-        <div class="product-container"><img src="../image/productos/shoot.jpg"></div>
-        <div class="product-container"><img src="../image/productos/tronco.jpg"></div>
-        <div class="product-container"><img src="../image/productos/vara.jpg"></div>
-        <div class="product-container"><img src="../image/productos/vigas.jpg"></div>
-        <div class="product-container"><img src="../image/productos/yate.jpg"></div>
+        <div class="product-container"><img src="../image/productos/bambu1.jpg" onclick="ocultar_o_mostrar_Carrucel('bambu',1)"></div>
+        <div class="product-container"><img src="../image/productos/barandal1.jpg" onclick="ocultar_o_mostrar_Carrucel('barandal',1)"></div>
+        <div class="product-container"><img src="../image/productos/celosia1.jpg" onclick="ocultar_o_mostrar_Carrucel('celosia',1)"></div>
+        <div class="product-container"><img src="../image/productos/duela1.jpg" onclick="ocultar_o_mostrar_Carrucel('duela',1)"></div>
+        <div class="product-container"><img src="../image/productos/estatua1.jpg" onclick="ocultar_o_mostrar_Carrucel('estatua',1)"></div>
+        <div class="product-container"><img src="../image/productos/louver1.jpg" onclick="ocultar_o_mostrar_Carrucel('louver',1)"></div>
+        <div class="product-container"><img src="../image/productos/maceta1.jpg" onclick="ocultar_o_mostrar_Carrucel('maceta',1)"></div>
+        <div class="product-container"><img src="../image/productos/mampara1.jpg" onclick="ocultar_o_mostrar_Carrucel('mampara',1)"></div>
+        <div class="product-container"><img src="../image/productos/moldura1.JPG" onclick="ocultar_o_mostrar_Carrucel('moldura',1)"></div>
+        <div class="product-container"><img src="../image/productos/muro1.jpg" onclick="ocultar_o_mostrar_Carrucel('muro',1)"></div>
+        <div class="product-container"><img src="../image/productos/pergolado-fajillas1.jpg" onclick="ocultar_o_mostrar_Carrucel('pergolado-fajillas',1)"></div>
+        <div class="product-container"><img src="../image/productos/pergolado-troncos1.jpg" onclick="ocultar_o_mostrar_Carrucel('pergolado-troncos',1)"></div>
+        <div class="product-container"><img src="../image/productos/pergolado-vigas1.jpg" onclick="ocultar_o_mostrar_Carrucel('pergolado-vigas',1)"></div>
+        <div class="product-container"><img src="../image/productos/piedra1.jpg" onclick="ocultar_o_mostrar_Carrucel('piedra',1)"></div>
+        <div class="product-container"><img src="../image/productos/porton1.jpg" onclick="ocultar_o_mostrar_Carrucel('porton',1)"></div>
+        <div class="product-container"><img src="../image/productos/relieve1.jpg" onclick="ocultar_o_mostrar_Carrucel('relieve',1)"></div>
+        <div class="product-container"><img src="../image/productos/shoot1.jpg" onclick="ocultar_o_mostrar_Carrucel('shoot',1)"></div>
+        <div class="product-container"><img src="../image/productos/tronco1.jpg" onclick="ocultar_o_mostrar_Carrucel('tronco',1)"></div>
+        <div class="product-container"><img src="../image/productos/vara1.jpg" onclick="ocultar_o_mostrar_Carrucel('vara',1)"></div>
+        <div class="product-container"><img src="../image/productos/vigas1.jpg" onclick="ocultar_o_mostrar_Carrucel('vigas',1)"></div>
+        <div class="product-container"><img src="../image/productos/yate1.jpg" onclick="ocultar_o_mostrar_Carrucel('yate',1)"></div>
       </div>
     </div>
   </body>
