@@ -74,8 +74,13 @@ html, body {
 }
 
 #freim{
+  background-color: #b3b7ee;
   border-radius: 5%;
   border-color: blue;
+}
+
+#fraim{
+  background-color: rgba(190, 230, 233, 0.5);
 }
 
 
@@ -105,7 +110,7 @@ html, body {
 
         #freim{
           width: 500px;
-          height: 568px;
+          height: 569px;
           border: none;
         }
 

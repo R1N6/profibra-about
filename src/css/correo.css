@@ -14,20 +14,20 @@ label {
 }
 
 input[type=submit] {
- background-color: #4CAF50;
- color: white;
+ background-color: #fcf7f9;
+ color: #080403;
  padding: 12px 20px;
- border-color: #53a548;
+ border-color: #080403;
  border-radius: 4px;
  cursor: pointer;
  float: right;
 }
 
 input[type=reset] {
- background-color: #F52525;
- color: white;
+ background-color: #080403;
+ color: #fcf7f9;
  padding: 12px 20px;
- border-color: #DE2A2A;
+ border-color: #fcf7f9;
  border-radius: 4px;
  cursor: pointer;
  float: right;
@@ -39,7 +39,7 @@ input[type=reset] {
 }
 
 .container {
- background-color: #f2f2f2;
+ background-image: linear-gradient(#48bfe3, #fcf7f9);
  padding: 20px;
 }
 
