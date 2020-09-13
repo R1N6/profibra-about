@@ -2,8 +2,9 @@
 <html>
 
 <head>
-    <title>Clientes</title>
+    <title>ProFibra | Clientes</title>
     <meta charset="utf-8">
+    <link rel="icon" href="../image/profibra_logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/index.css">
@@ -30,6 +31,19 @@
         </div>
     </div>
     <!--Barra de navegación-->
+
+    <button type="button" class="btn btn-info btn-lg" id="bmail" data-toggle="modal" data-target="#fraim"></button>
+    <div id="fraim" class="modal fade" role="dialog">
+      <div class="modal-dialog b">
+        <div class="modal-content b" id="mdf">
+          <iframe src="correo.html" id="freim" class="b"></iframe>
+        </div>
+      </div>
+    </div>
+    <script>
+      var _theframe = document.getElementById("freim");
+      _theframe.contentWindow.location.href = _theframe.src;
+    </script>
     <div id="main-content">
         <div class="customer-container"><a href="https://vagaconst.com"><img src="../image/clientes/logo_cliente (1).png"></a></div>
         <div class="customer-container"><a href="https://westin.marriott.com/es-XM"><img src="../image/clientes/logo_cliente (2).png"></a></div>
