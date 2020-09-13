@@ -9,6 +9,7 @@
 }
 
 #header-text {
+    float: left;
     width: 100%;
     height: 7%;
     background-color: silver;
@@ -19,6 +20,7 @@
 }
 
 #upper-text {
+    float: left;
     width: 100%;
     height: 43%;
     background-color: salmon;
@@ -27,6 +29,7 @@
 
 
 #team-picture {
+    float: left;
     width: 100%;
     height: 50%;
     background-color: olive;
@@ -42,6 +45,7 @@
 }
 
 #history-text {
+    float: left;
     width: 80%;
     height: 50%;
     background-color: coral;
@@ -51,6 +55,7 @@
 }
 
 #mision-and-vision {
+    float: left;
     width: 100%;
     height: 50%;
     background-color: lightsteelblue;
