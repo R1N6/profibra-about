@@ -18,6 +18,30 @@
     background-color: rgb(33, 54, 83);
 }
 
+#Fondo_contenedor{
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.548);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 501;
+}
+
+#Fondo_contenedor_clickeable{
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#contenedor_Carrucel{
+    z-index: 2; 
+    position: absolute;
+    max-width: 1000px;
+}
+
 .product-container {
     display: flex;
     justify-content: center;
@@ -32,8 +56,18 @@
     width: 100%;
     max-height: 100%;
     display: block;
-    
+    cursor:pointer;
 }
+
+#id_prev{
+    cursor:pointer;
+}
+
+#id_next{
+    cursor:pointer;
+}
+
+
 
 @media screen and (max-width: 650px) {
     body {
