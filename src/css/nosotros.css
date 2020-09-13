@@ -91,7 +91,7 @@
 #mision-and-vision {
     float: left;
     width: 100%;
-    height: 50%;
+    height: 30%;
     background-color: lightsteelblue;
     display: flex;
 }
@@ -156,6 +156,7 @@
 
     #mision-and-vision {
         flex-flow: column;
+        height: 50%;
     }
 
     #mision-div {
@@ -164,6 +165,10 @@
 
     #vision-div {
         width: 100%;
+    }
+
+    #history-text {
+        height: 55%;
     }
 
     #history-text h2 {
