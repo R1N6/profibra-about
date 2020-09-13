@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
@@ -70,7 +71,7 @@ html, body {
   font-family: 'Merriweather', serif;
   margin: 0 30px;
   border-radius: 5px;
-  width: 14%;
+  width: 16%;
   height: 70%;
   text-align: center;
   display: flex;
@@ -146,8 +147,8 @@ html, body {
 
 
 #bmail {
-  bottom: 0;
-  right: 0;
+  margin-left: 0;
+  float: left;
   border: none;
   background-image: url('../image/iconos/email_RS.png');
   background-size: contain;
@@ -155,7 +156,7 @@ html, body {
   width: 40px;
   height: 40px;
   position: fixed;
-  z-index: 500;
+  z-index: 50;
   border-radius: 50%;
 }
 
