@@ -2,8 +2,9 @@
 <html>
 
 <head>
-  <title>Nosotros</title>
-  <meta charset="utf-8" />
+  <title>ProFibra | Nosotros</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="../image/profibra_logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="../css/bootstrap.min.css" />
   <link rel="stylesheet" href="../css/navbar.css" />
@@ -31,6 +32,18 @@
     </div>
   </div>
   <!--Barra de navegación-->
+  <button type="button" class="btn btn-info btn-lg" id="bmail" data-toggle="modal" data-target="#fraim"></button>
+  <div id="fraim" class="modal fade" role="dialog">
+    <div class="modal-dialog b">
+      <div class="modal-content b" id="mdf">
+        <iframe src="correo.html" id="freim" class="b"></iframe>
+      </div>
+    </div>
+  </div>
+  <script>
+    var _theframe = document.getElementById("freim");
+    _theframe.contentWindow.location.href = _theframe.src;
+  </script>
   <div id="main-content">
     <div id="header-text">
       <h2>Nosotros</h2>
