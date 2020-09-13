@@ -41,9 +41,6 @@
        bottom: 0;
        width: 0;
        height: 0;
-       border-left: 20px solid #5eaBC9;
-       border-top: 18px solid transparent;
-       border-bottom: 18px solid transparent;
      }
 
    .aliz {
@@ -107,6 +104,7 @@
     max-width:75% ;
   }
   .testo{
+    margin-top: 1EM;
     max-width: none;
     padding: 0;
   }
