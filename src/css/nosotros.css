@@ -4,7 +4,7 @@
     flex-flow: row wrap;
     justify-content: center;
     width: 100%;
-    height: 200%;
+    height: 205%;
     background-color: rgb(33, 54, 83);
 }
 
@@ -22,11 +22,39 @@
 #upper-text {
     float: left;
     width: 100%;
-    height: 43%;
+     height: 33%;
     background-color: salmon;
 }
 
+#upper-text-text {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#upper-text-text h1 {
+    width: 80%;
+}
+
+#upper-text-image {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#upper-text-image img {
+    display: block;
+    width: 80%;
+    height: auto;
+}
 
 #team-picture {
     float: left;
@@ -34,7 +62,8 @@
     height: 50%;
     background-color: olive;
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -46,12 +75,17 @@
 
 #history-text {
     float: left;
-    width: 80%;
+    width: 100%;
     height: 50%;
     background-color: coral;
     display: flex;
-    text-align: center;
+    text-align: justify;
     align-items: center;
+    justify-content: center;
+}
+
+#history-text h2 {
+    width: 80%;
 }
 
 #mision-and-vision {
@@ -63,13 +97,16 @@
 }
 
 #mision-div {
+    float: left;
     width: 50%;
     height: 100%;
     background-color: darkolivegreen;
-    display: flex column;
+    display: flex;
+    flex-flow: column;
 }
 
 #vision-div {
+    float: left;
     width: 50%;
     height: 100%;
     background-color: darkorchid;
@@ -92,5 +129,76 @@
     background-color: goldenrod;
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.text-section h3 {
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+
+    #upper-text-text {
+        width: 100%;
+        height: 50%;
+    }
+
+    #upper-text-text h1 {
+        width: 80%;
+        font-size: 25px;
+    }
+
+    #upper-text-image {
+        width: 100%;
+        height: 50%;
+    }
+
+    #mision-and-vision {
+        flex-flow: column;
+    }
+
+    #mision-div {
+        width: 100%;
+    }
+
+    #vision-div {
+        width: 100%;
+    }
+
+    #history-text h2 {
+        font-size: 25px;
+    }
+
+    #team-picture {
+        float: left;
+        width: 100%;
+        height: 25%;
+        background-color: olive;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #team-picture img {
+        width: 86%;
+    }
+
+
+}
+
+@media screen and (max-width: 380px) {
+
+    #upper-text-text h1 {
+        font-size: 20px;
+    }
+
+    #team-picture img {
+        width: 90%;
+    }
+
+    #history-text h2 {
+        font-size: 17px;
+    }
 }
