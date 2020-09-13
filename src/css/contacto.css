@@ -1,14 +1,9 @@
 html, body {
-
     background: #fcf7f9;
-
-
 }
 
 .Contenido{
-
     margin-top: 14.8vh;
-
 }
 
 
@@ -84,10 +79,8 @@ html, body {
 }
 
 #cuestionario_De_Contacto{
-    background-color: ;
     display: flex;
     flex-direction: column;
-
     flex-wrap: wrap;
     align-content: space-around;
 }
