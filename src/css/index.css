@@ -6,11 +6,50 @@
 
   }
 
+  .testo{
+    margin: 0;
+    padding: 0;
+  }
+
+     .ariz {
+       list-style: none;
+       float: right;
+       right: 0;
+       margin-left: 1em;;
+       margin-top: 1em;
+       margin-bottom: ;
+       width: 90%;
+       height: auto;
+       position: relative;
+       background: #5eaBC9;
+     }
+     .ariz:after {
+       content: "";
+       position: absolute;
+       left: -20px;
+       bottom: 0;
+       width: 0;
+       height: 0;
+       border-right: 20px solid #5eaBC9;
+       border-top: 18px solid transparent;
+       border-bottom: 18px solid transparent;
+     }
+     .ariz:before {
+       content: "";
+       position: absolute;
+       right: -20px;
+       bottom: 0;
+       width: 0;
+       height: 0;
+     }
+
    .aliz {
      list-style: none;
-     margin-left: 1em;;
+     left: 0;
+     float: left;
+     margin-right: 1em;
      margin-top: 1em;
-     margin-bottom: 1em;
+     margin-bottom: ;
      width: 90%;
      height: auto;
      position: relative;
@@ -64,23 +103,33 @@
     text-align: center;
     max-width:75% ;
   }
+  .testo{
+    margin-top: 1EM;
+    max-width: none;
+    padding: 0;
+  }
 @media only screen and (min-width: 655px){
   .testo{
-    padding: 1em;
     font-size: 1.5em;
-    max-width: 50%;
+    width: 50%;
   }
 }
-  @media only screen and (max-width: 575px) {
-    .pildora{
-      margin:auto;
-    }
-    .titulo{
-      max-width: 100%;
-    }
-  }
+  /*@media only screen and (max-width: 575px) {
+  }*/
 @media only screen and (max-width: 654px){
+  .pildora{
+    margin:auto;
+  }
+  .titulo{
+    width: 100%;
+  }
   .testo{
     font-size: 1.5em;
     width: 100%;
+  }
+  .testoL{
+    float: left;
+  }
+  .testoR{
+    float: right;
   }
