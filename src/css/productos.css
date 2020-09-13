@@ -18,6 +18,26 @@
     background-color: rgb(33, 54, 83);
 }
 
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    width: 20%;
+    height: 10%;
+    
+}
+
+.product-container img {
+    width: 100%;
+    max-height: 100%;
+    display: block;
+    cursor:pointer;
+}
+
+
+/* Carrucel de imagenes dinamico*/
 #Fondo_contenedor{
     width: 100%; 
     height: 100%;
@@ -39,24 +59,12 @@
 #contenedor_Carrucel{
     z-index: 2; 
     position: absolute;
-    max-width: 1000px;
 }
 
-.product-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3%;
-    width: 20%;
-    height: 10%;
-    
-}
-
-.product-container img {
+.carousel-inner img {
     width: 100%;
-    max-height: 100%;
-    display: block;
-    cursor:pointer;
+    height: 100%;
+    resize: none;
 }
 
 #id_prev{
@@ -67,6 +75,91 @@
     cursor:pointer;
 }
 
+/* Carrucel de imagenes dinamico*/
+
+
+
+
+
+/* animaciones imagenes pulsables*/
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+  }
+
+  .div-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-img.hidden {
+    overflow: hidden;
+  }
+  .div-img img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+  }
+  .div-img:hover img {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    opacity: 0.4;
+  }
+  
+  .div-img .texto {
+    font-family: 'Open Sans';
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    transform: translate(0px);
+    color: beige;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    opacity: 0;
+    transition: transfom opacity 1.5s;
+    background-color: rgba(255, 255, 255, 0.397);
+    font-size: 1.5em;
+    font-weight: bold;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+ 
+  }
+  .div-img:hover .texto {
+    transform: translate(0px, -80px);
+    opacity: 1;   
+
+  }
+
+  .div-img .texto:hover{
+    text-decoration:underline;   
+    cursor: pointer;
+  }
+
+
+/* animaciones imagenes pulsables*/
 
 
 @media screen and (max-width: 650px) {
