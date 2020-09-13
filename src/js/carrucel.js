@@ -23,7 +23,7 @@ var Nombre_IMG_Global="";
 
         if (elemento_Div_Fondo_Contenedor.style.display === "none") {
             elemento_Div_Fondo_Contenedor.style.display = "flex";
-            div_img_seleccionado.setAttribute("src","../image/productos/"+Nombre_IMG+"1.JPG");        
+            div_img_seleccionado.setAttribute("src","../image/productos/"+Nombre_IMG+"/"+Nombre_IMG+"1.JPG");        
             ocultar_MarginMainContent.style.marginTop = "0";    
         } else {
             elemento_Div_Fondo_Contenedor.style.display = "none";
