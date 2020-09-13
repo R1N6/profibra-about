@@ -2,57 +2,30 @@
     width: 100%;
     height: 100%;
     max-height: 700px;
-    resize: none;
+    resize: none; 
 
   }
-
-   .aliz {
-     list-style: none;
-     margin-left: 1em;;
-     margin-top: 1em;
-     margin-bottom: 1em;
-     width: 90%;
-     height: auto;
-     position: relative;
-     background: #5eaBC9;
-   }
-   .aliz:after {
-     content: "";
-     position: absolute;
-     left: -20px;
-     bottom: 0;
-     width: 0;
-     height: 0;
-     border-right: 20px solid #5eaBC9;
-     border-top: 18px solid transparent;
-     border-bottom: 18px solid transparent;
-   }
-   .aliz:before {
-     content: "";
-     position: absolute;
-     right: -20px;
-     bottom: 0;
-     width: 0;
-     height: 0;
-     border-left: 20px solid #5eaBC9;
-     border-top: 18px solid transparent;
-     border-bottom: 18px solid transparent;
-   }
   .pildora{
     height:80px ;
     width: 180px;
     max-width: 360px;
     margin:auto;
-
+   
     margin-left:4vw;
     color: white;
     padding: 15px;
     background-color:#3d81b8;
     font-size: 2em;
   }
+  .testo{
+    font-size: 1.5em;
+    max-width: 100%;
+  }
   #Carrusel{
     padding: 0.5%;
     margin-top: 6.3vh;
+
+
   }
 
   .titulo{
@@ -64,13 +37,7 @@
     text-align: center;
     max-width:75% ;
   }
-@media only screen and (min-width: 655px){
-  .testo{
-    padding: 1em;
-    font-size: 1.5em;
-    max-width: 50%;
-  }
-}
+
   @media only screen and (max-width: 575px) {
     .pildora{
       margin:auto;
@@ -78,9 +45,4 @@
     .titulo{
       max-width: 100%;
     }
-  }
-@media only screen and (max-width: 654px){
-  .testo{
-    font-size: 1.5em;
-    width: 100%;
   }
