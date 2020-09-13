@@ -185,6 +185,10 @@
         width: 86%;
     }
 
+    .text-section h3 {
+        width: 80%;
+        font-size: 35px;
+    }
 
 }
 
@@ -200,5 +204,10 @@
 
     #history-text h2 {
         font-size: 17px;
+    }
+
+    .text-section h3 {
+        width: 80%;
+        font-size: 22px;
     }
 }
