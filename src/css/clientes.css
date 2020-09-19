@@ -15,7 +15,11 @@
     margin: 1%;
     width: 15%;
     height: 20%;
-    
+}
+
+.customer-container:hover a {
+  background-color: #bed;
+  transform: scale(1.2);
 }
 
 .customer-container a {
@@ -24,6 +28,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .6s;
+    border-radius: 5%;
 }
 
 .customer-container img {
