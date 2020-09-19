@@ -3,7 +3,7 @@ body {
 }
 
 #main-content {
-    margin-top: 7.4vh;
+    margin-top: .4vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -21,12 +21,26 @@ body {
 
 }
 
-#upper-text {
-  margin-top: 4em;
-  margin-bottom: 4em;
+@media only screen and (min-width:380px){
+
+    #upper-text {
+      margin-top:8.8vh;
+      margin-bottom: 2em;
+      float: left;
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media only screen and (max-width:380px) {
+
+  #upper-text {
+    margin-top:2.5vh;
+    margin-bottom: 2em;
     float: left;
     width: 100%;
-     height: auto;
+    height: auto;
+  }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
