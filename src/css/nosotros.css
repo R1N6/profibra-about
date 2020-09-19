@@ -1,5 +1,5 @@
 body {
-    background-color: #bed1e9;
+    background-color: #fcf4f9;
 }
 
 #main-content {
@@ -8,13 +8,13 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     width: 100%;
-    height: 205%;
+    height: auto;
 }
 
 #header-text {
     float: left;
     width: 100%;
-    height: 7%;
+    height: auto;
     display: flex;
     align-items: flex-end;
     justify-content:center;
@@ -22,27 +22,38 @@ body {
 }
 
 #upper-text {
+  margin-top: 4em;
+  margin-bottom: 4em;
     float: left;
     width: 100%;
-     height: 33%;
+     height: auto;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 #upper-text-text {
+  background-color: #3d81b8;
+  font-family: 'Libre Baskerville', serif;
+  color: #fcf4f9;
+  margin: 0;
+  text-align: center;
+  padding: 3ex;
     float: left;
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-content:center;
     justify-content: center;
 }
 
-#upper-text-text h1 {
-    width: 80%;
+#upper-text-text h3 {
+    width: 100%;
 }
 
 #upper-text-image {
+  background-color: #5eabc9;
     float: left;
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -55,6 +66,7 @@ body {
     height: auto;
 }
 
+
 #team-picture {
     float: left;
     width: 100%;
@@ -65,6 +77,13 @@ body {
     align-items: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+#histH{
+  color: #080403;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+}
+
 #team-picture img {
     display: block;
     width: 60%;
@@ -72,13 +91,10 @@ body {
 }
 
 #history-text {
-    float: left;
-    width: 100%;
-    height: 50%;
-    display: flex;
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: auto;
+  width: 100%;
+
 }
 
 #history-text h2 {
@@ -86,12 +102,165 @@ body {
 }
 
 #mision-and-vision {
+    background-color: #080403;
     float: left;
     width: 100%;
     height: 30%;
     display: flex;
 }
+/*          LARA                */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
 
+.ftwi{
+  font-family: 'Old Standard TT', serif;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+#ddi{
+  margin: 0;
+  float: left;
+  background-image: url('../image/nosotros/n1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#dii{
+  margin: 0;
+  float: left;
+  background-image: url('../image/nosotros/n4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ti1{
+  margin: 0;
+  float: left;
+  color: #fcf4f9;
+  background-color: #080403;
+}
+
+#ti2{
+  margin: 0;
+  float: left;
+  color: #080403;
+  background-color: #fcf4f9;
+}
+
+@media only screen and (max-width: 768px) {
+  .tex_img_b, .divtxt, .divimg{
+    width: 100%;
+  }
+  .tex_img_b{
+    height: 700px;
+  }
+  .divimg, .divtxt{
+    width: 100%;
+    height: 350px;
+  }
+}
+
+.histext{
+  margin: auto;
+  padding: 1em;
+  font-size: 2ex;;
+}
+
+.toimg{
+  color: #fcf4f9;
+}
+@media only screen and (min-width: 768px){
+    .tex_img_b{
+      width: 100%;
+      height: 350px;
+      padding: 0;
+      margin: 0;
+    }
+    .divimg, .divtxt{
+      width: 50%;
+      height: 100%;
+    }
+}
+
+#pif{
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  background-image: url('../image/productos/louver/louver8.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sif{
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  background-image: url('../image/productos/mampara/mampara15.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tiMV{
+  height: 5em;
+  background-color: #080403;
+}
+
+.tmv{
+  margin-top: 1ch;
+  font-weight: bold;
+  color: #fcf7f9;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,700;1,400&display=swap');
+
+.mvt{
+  font-family: 'Old Standard TT', serif;
+  border-width: 3px;
+  border: solid;
+  border-color: #080403;
+  background-color: #fcf4f9;
+  color: #080403;
+}
+
+.histexti{
+    text-align: center;
+    background-color: rgba(0,0,0,0.50);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    font-size: 17px;
+}
+
+@media only screen and (min-width: 769px) {
+  #pif{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    background-image: url('../image/productos/louver/louver8.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #sif{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    background-image: url('../image/productos/mampara/mampara15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .histexti{
+    text-align: center;
+    background-color: rgba(0,0,0,0.50);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    font-size: 17px;
+  }
+}
+
+/*            LARA              */
 #mision-div {
     float: left;
     width: 50%;
@@ -110,10 +279,7 @@ body {
 
 .title-section {
     width: 100%;
-    height: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .text-section {
@@ -126,24 +292,26 @@ body {
 }
 
 .text-section h3 {
-    width: 80%;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-
     #upper-text-text {
         width: 100%;
-        height: 50%;
+        height: auto;
     }
 
-    #upper-text-text h1 {
-        width: 80%;
-        font-size: 25px;
+    #upper-text-text h3{
+      font-size: 2ch;
+    }
+
+    #histH{
+
     }
 
     #upper-text-image {
         width: 100%;
-        height: 50%;
+        height: auto;
     }
 
     #mision-and-vision {
@@ -152,19 +320,11 @@ body {
     }
 
     #mision-div {
-        width: 100%;
+      width: 100%;
     }
 
     #vision-div {
         width: 100%;
-    }
-
-    #history-text {
-        height: 55%;
-    }
-
-    #history-text h2 {
-        font-size: 25px;
     }
 
     #team-picture {
@@ -182,28 +342,24 @@ body {
     }
 
     .text-section h3 {
-        width: 80%;
+        width: 100%;
         font-size: 35px;
     }
 
 }
 
 @media screen and (max-width: 380px) {
+  .histexti{
+    text-align: center;
+  }
 
-    #upper-text-text h1 {
-        font-size: 20px;
+    #upper-text-text h3{
+      line-height: normal;
+        font-size: 1rem;
     }
 
     #team-picture img {
         width: 90%;
     }
 
-    #history-text h2 {
-        font-size: 17px;
-    }
-
-    .text-section h3 {
-        width: 80%;
-        font-size: 22px;
-    }
 }

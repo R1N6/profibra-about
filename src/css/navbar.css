@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-html,
-body {
+html, body {
   width: 100%;
   height: 100%;
 }
@@ -147,7 +146,7 @@ body {
 
 
 #bmail {
-  bottom: 0;
+  bottom: 15%;
   right: 0;
   border: none;
   background-image: url('../image/iconos/email_RS.png');
