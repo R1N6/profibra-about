@@ -162,8 +162,29 @@ html, body {
 
 /*    footer    */
 
+.fImg{
+  transition: .6S;
+}
+
+.fImg:hover{
+  transform: scale(1.5);
+}
+
+#bmail{
+  transition: .6S;
+}
+
+#bmail:hover{
+  transform: scale(1.5);
+}
+
+
 .blanco {
   color: #fcf7f9;
+}
+
+.blanco:hover{
+  text-decoration: none;
 }
 
 /*         Pantalla grande           */
