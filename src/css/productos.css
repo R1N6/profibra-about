@@ -47,6 +47,7 @@
     align-items: center;
     display: none;
     z-index: 501;
+    opacity: 0;
 }
 
 #Fondo_contenedor_clickeable{

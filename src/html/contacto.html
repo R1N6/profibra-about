@@ -20,21 +20,35 @@
 
 </head>
 <body>
-<!--Barra de navegación-->
-  <div id="nav-bar">
-    <div id="nav-bar-left">
-      <a class="left-link" href="nosotros.html">Nosotros</a>
-      <a class="left-link" href="clientes.html">Clientes</a>
-    </div>
-    <div id="nav-bar-logo"><a href="index.html"><img src="../image/profibra_logo.png" alt="Logo Profibra"></a></div>
-    <div id="nav-bar-right">
-      <a class="secondary-right-link" href="nosotros.html">Nosotros</a>
-      <a class="secondary-right-link" href="clientes.html">Clientes</a>
-      <a class="right-link" href="productos.html">Productos</a>
-      <a class="right-link" href="contacto.html">Contacto</a>
-    </div>
-  </div>
   <!--Barra de navegación-->
+  <div id="Contenedor_nav">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav-bar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" id="btn_expandir">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="contacto.html" id="nav_pestaña_actual">Contacto</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-accesos-directos" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-accesos-directos" href="nosotros.html">Nosotros </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-accesos-directos" href="clientes.html">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-accesos-directos" href="productos.html">Productos</a>
+          </li>
+        </ul>
+      </div>
+      <div id="logo_profibra">
+        <p id="letras_logo_profibra" href="index.html" >PROFIBRA</p>
+      </div>
+    </nav>
+    </div>
+    <!--Barra de navegación-->
 
   <button type="button" class="btn btn-info btn-lg" id="bmail" data-toggle="modal" data-target="#fraim"></button>
 
