@@ -19,10 +19,7 @@ var contadorclick = 0;
         //funcion asincronica esperando se ejecute el desplazamiento del carrucel 
         $('#myCarousel').on('slide.bs.carousel', function (e) {
    
-            console.log(e.direction)
-            console.log(e.relatedTarget)
-            console.log(e.from)
-            console.log(e.to)
+
             
                 if(e.direction=="left"){
                     Next(e)
@@ -48,10 +45,15 @@ var contadorclick = 0;
 
         if (elemento_Div_Fondo_Contenedor.style.display == "none") {
             elemento_Div_Fondo_Contenedor.style.display = "flex";
+            $("#Fondo_contenedor").animate({
+                opacity: "1",   
+            });
+
             div_img_seleccionado.setAttribute("src","../image/productos/"+Nombre_IMG+"/"+Nombre_IMG+"1.JPG");        
             ocultar_MarginMainContent.style.marginTop = "0";    
         } else {
             elemento_Div_Fondo_Contenedor.style.display = "none";
+            elemento_Div_Fondo_Contenedor.style.opacity = 0;
             ocultar_MarginMainContent.style.marginTop = "7.4vh";   
         }            
 
@@ -112,7 +114,6 @@ var contadorclick = 0;
         }else{
             contador_Imagen_Seleccionada=contador_Cantidad_De_Imagenes_Minima;
         }
-        console.log("next numero de click "+contadorclick+"   Contador div cargado=" +contador_div_seleccionado);
 
     }//termino de funcion next
 
@@ -171,6 +172,5 @@ var contadorclick = 0;
 
         contadorclick++;
         
-        console.log("numero de click "+contadorclick+"   Contador div cargado=" +contador_div_seleccionado);    
 
     }//termino de funcion Prev
