@@ -376,4 +376,8 @@ body {
         width: 90%;
     }
 
+    #main-content {
+      margin-top: 40px;
+
+  }
 }
