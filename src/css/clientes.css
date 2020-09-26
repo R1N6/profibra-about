@@ -5,7 +5,6 @@
     justify-content: space-around;
     width: 100%;
     height: 205%;
-    background-color: rgba(61, 129, 216, 0.50);
 }
 
 .customer-container {
@@ -18,7 +17,7 @@
 }
 
 .customer-container:hover a {
-  background-color: #bed;
+  background-color: #3d81b8;
   transform: scale(1.2);
 }
 
