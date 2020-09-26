@@ -6,6 +6,9 @@ html, body {
     margin-top: 14.8vh;
 }
 
+.faq-text{
+  color: #080403;
+}
 
 .titulo_Principal{
     font-size: 2.8em;

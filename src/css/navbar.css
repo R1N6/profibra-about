@@ -41,7 +41,7 @@ html, body {
 }
 
 .nav-accesos-directos:hover{
-  color: #ffffff;      
+  color: #ffffff;
   transition: 0.2s;
   font-weight: bold;
 }
@@ -297,6 +297,7 @@ html, body {
   }
 
   #redez {
+    margin-bottom: 1em;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
