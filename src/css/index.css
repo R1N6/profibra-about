@@ -86,7 +86,7 @@
     margin-left:4vw;
     color: white;
     padding: 15px;
-    background-color:#3d81b8;
+    background-color:gray;
     font-size: 2em;
   }
   #Carrusel{
@@ -95,41 +95,39 @@
   }
 
   .titulo{
-    background-color: #3d81b8;
+    background-color: gray;
     height:80px ;
     font-size: 2em;
     color: white;
     padding:0px;
     text-align: center;
-    max-width:75% ;
+    max-width:90% ;
   }
   .testo{
     margin-top: 1EM;
-    max-width: none;
-    padding: 0;
-  }
-@media only screen and (min-width: 655px){
-  .testo{
+    max-width: 85%;
+    padding: 15px;
     font-size: 1.5em;
     width: 50%;
   }
-}
+
   /*@media only screen and (max-width: 575px) {
   }*/
-@media only screen and (max-width: 654px){
+@media only screen and (max-width: 991px){
+
   .pildora{
     margin:auto;
   }
+
   .titulo{
     width: 100%;
+    max-width:100% ;
   }
+
   .testo{
     font-size: 1.5em;
     width: 100%;
-  }
-  .testoL{
-    float: left;
-  }
-  .testoR{
-    float: right;
-  }
+    max-width: 100%;
+  } 
+
+}
