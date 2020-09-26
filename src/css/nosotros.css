@@ -1,9 +1,8 @@
 body {
-    background-color: #fcf4f9;
 }
 
 #main-content {
-    margin-top: .4vh;
+    margin-top: ;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -21,27 +20,6 @@ body {
 
 }
 
-@media only screen and (min-width:380px){
-
-    #upper-text {
-      margin-top:8.8vh;
-      margin-bottom: 2em;
-      float: left;
-      width: 100%;
-      height: auto;
-    }
-}
-
-@media only screen and (max-width:380px) {
-
-  #upper-text {
-    margin-top:2.5vh;
-    margin-bottom: 2em;
-    float: left;
-    width: 100%;
-    height: auto;
-  }
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
@@ -93,7 +71,7 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
 #histH{
-  color: #080403;
+  color: #fcf4f9;
   font-family: 'Crimson Text', serif;
   font-style: italic;
 }
@@ -163,39 +141,14 @@ body {
   background-color: #fcf4f9;
 }
 
-@media only screen and (max-width: 768px) {
-  .tex_img_b, .divtxt, .divimg{
-    width: 100%;
-  }
-  .tex_img_b{
-    height: 700px;
-  }
-  .divimg, .divtxt{
-    width: 100%;
-    height: 350px;
-  }
-}
-
 .histext{
   margin: auto;
   padding: 1em;
-  font-size: 2ex;;
+  font-size: 23px;
 }
 
 .toimg{
   color: #fcf4f9;
-}
-@media only screen and (min-width: 768px){
-    .tex_img_b{
-      width: 100%;
-      height: 350px;
-      padding: 0;
-      margin: 0;
-    }
-    .divimg, .divtxt{
-      width: 50%;
-      height: 100%;
-    }
 }
 
 #pif{
@@ -221,64 +174,33 @@ body {
   background-color: #080403;
 }
 
-.tmv{
-  margin-top: 1ch;
-  font-weight: bold;
-  color: #fcf7f9;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,700;1,400&display=swap');
 
 .mvt{
   font-family: 'Old Standard TT', serif;
-  border-width: 3px;
+  border-width: 2px;
   border: solid;
+  padding: 2ex;
   border-color: #080403;
-  background-color: #fcf4f9;
+  background-color: #62a3cb;
   color: #080403;
 }
 
-.histexti{
-    text-align: center;
-    background-color: rgba(0,0,0,0.50);
-    border-bottom-left-radius: 25%;
-    border-bottom-right-radius: 25%;
-    font-size: 17px;
+#th2{
+  float: right;
 }
 
-@media only screen and (min-width: 769px) {
-  #pif{
-    padding: 0;
-    margin: 0;
-    height: 500px;
-    background-image: url('../image/productos/louver/louver8.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.histexti{
+    text-align: justify;
+    background-color: #080403;
 
-  #sif{
-    padding: 0;
-    margin: 0;
-    height: 500px;
-    background-image: url('../image/productos/mampara/mampara15.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .histexti{
-    text-align: center;
-    background-color: rgba(0,0,0,0.50);
-    border-bottom-left-radius: 25%;
-    border-bottom-right-radius: 25%;
-    font-size: 17px;
-  }
 }
 
 /*            LARA              */
 #mision-div {
     float: left;
     width: 50%;
-    height: 100%;
+    height: ;
     display: flex;
     flex-flow: column;
 }
@@ -286,7 +208,7 @@ body {
 #vision-div {
     float: left;
     width: 50%;
-    height: 100%;
+    height: ;
     display: flex;
     flex-flow: column;
 }
@@ -305,79 +227,196 @@ body {
     text-align: justify;
 }
 
-.text-section h3 {
-    width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-    #upper-text-text {
-        width: 100%;
-        height: auto;
-    }
-
-    #upper-text-text h3{
-      font-size: 2ch;
-    }
-
-    #histH{
-
-    }
-
-    #upper-text-image {
-        width: 100%;
-        height: auto;
-    }
-
-    #mision-and-vision {
-        flex-flow: column;
-        height: 50%;
-    }
-
-    #mision-div {
-      width: 100%;
-    }
-
-    #vision-div {
-        width: 100%;
-    }
-
-    #team-picture {
-        float: left;
-        width: 100%;
-        height: 25%;
-        display: flex;
-        flex-flow: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    #team-picture img {
-        width: 86%;
-    }
-
-    .text-section h3 {
-        width: 100%;
-        font-size: 35px;
-    }
-
-}
-
 @media screen and (max-width: 380px) {
-  .histexti{
-    text-align: center;
-  }
-
     #upper-text-text h3{
       line-height: normal;
         font-size: 1rem;
     }
-
     #team-picture img {
         width: 90%;
     }
+}
+/*        margen        */
 
-    #main-content {
-      margin-top: 40px;
-
+@media only screen and (max-width:992px) {
+  #upper-text {
+    margin-top:58px;
+    margin-bottom: 2em;
+    float: left;
+    width: 100%;
+    height: auto;
   }
 }
+
+@media only screen and (min-width:992px){
+  #upper-text {
+    margin-top:56px;
+    margin-bottom: 2em;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+}
+/*        margen        */
+
+@media screen and (max-width: 768px) {
+  #upper-text-text {
+    width: 100%;
+    height: auto;
+  }
+
+  #upper-text-text h3{
+    font-size: 2ch;
+  }
+
+  #upper-text-image {
+    width: 100%;
+    height: auto;
+  }
+
+  #mision-and-vision {
+    flex-flow: column;
+    height: 50%;
+  }
+
+  #mision-div {
+    width: 100%;
+  }
+
+  #vision-div {
+    width: 100%;
+  }
+
+  #team-picture {
+    float: left;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #team-picture img {
+    width: 86%;
+  }
+
+  .tex_img_b, .divtxt, .divimg{
+    width: 100%;
+  }
+  .tex_img_b{
+    height: 700px;
+  }
+  .divimg, .divtxt{
+    width: 100%;
+    height: 350px;
+  }
+
+  .histexti{
+    padding: 1em;
+    font-size: 21px;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .tex_img_b{
+      width: 100%;
+      height: 350px;
+      padding: 0;
+      margin: 0;
+    }
+    .divimg, .divtxt{
+      width: 50%;
+      height: 100%;
+    }
+
+    .histexti{
+      padding: 1ex;
+      flex-direction: column;
+      width: 25%;
+      height: 100%;
+
+    }
+
+}
+
+.tmv{
+  padding:10px;
+  color: #fcf7f9;
+}
+/*      Media para texto de Mision y Vision*/
+@media only screen and (min-width:770px){
+  .tmv{
+    font-size: 2.6vw;
+  }
+  .mvt h3{
+    font-size: 2.2vw;
+  }
+}
+
+@media only screen and (max-width:770px){
+  .tmv{
+    font-size: 25px;
+  }
+  .mvt h3{
+    font-size: 18px;
+  }
+}
+/*      Media para texto de Mision y Vision*/
+/*      Media para texto de historia 1 y 2*/
+@media only screen and (max-width:892px){
+  .histext{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width:1599px){
+    .histexti{
+      font-size: 1.6vw;
+    }
+}
+@media only screen and (max-width:1599px){
+    .histexti{
+      font-size: 23px;
+    }
+}
+@media only screen and (max-width:1472px){
+    .histexti{
+      font-size: 22px;
+    }
+}
+@media only screen and (max-width:1348px){
+    .histexti{
+      font-size: 21px;
+    }
+}
+@media only screen and (max-width:1119px){
+  .histexti{
+      font-size: 20px;
+  }
+}
+@media only screen and (max-width:983px){
+  .histexti{
+      font-size: 19px;
+  }
+
+}
+@media only screen and (max-width:923px){
+  .histexti{
+      font-size: 18px;
+  }
+}
+@media only screen and (max-width:827px){
+  .histexti{
+      font-size: 17px;
+  }
+}
+@media only screen and (max-width:680px){
+  .histexti{
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+/*      Media para texto de historia 1 y 2*/
