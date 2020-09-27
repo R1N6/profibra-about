@@ -43,7 +43,7 @@ body {
 }
 
 #upper-text-image {
-  background-color: #5eabc9;
+  background-color: ;
     float: left;
     width: 50%;
     height: 100%;
@@ -60,26 +60,36 @@ body {
 
 
 #team-picture {
-    float: left;
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  width: 100%;
+    height: 500px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
 #histH{
+  font-weight: bold;
+  margin-top: 40%;
+  text-align: center;
   color: #fcf4f9;
   font-family: 'Crimson Text', serif;
   font-style: italic;
 }
+#team-picture h3{
+  line-height: 2vw;
+  font-size: 5vw;
+  height: 100%;
+  width: 100%;
+}
+
+.imgTeam{
+  width: 50%;
+  height: 100%;
+}
 
 #team-picture img {
-    display: block;
-    width: 60%;
-    height: 80%;
+  padding: 1ex;
+    width: 100%;
+    height: 100%;
 }
 
 #history-text {
@@ -189,11 +199,17 @@ body {
 #th2{
   float: right;
 }
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@800&display=swap');
 
 .histexti{
+  font-family: 'Changa', sans-serif;
+  font-weight: bold;
     text-align: justify;
-    background-color: #080403;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
+.timg{
+  padding: 1ex;
 }
 
 /*            LARA              */
@@ -208,7 +224,6 @@ body {
 #vision-div {
     float: left;
     width: 50%;
-    height: ;
     display: flex;
     flex-flow: column;
 }
@@ -232,16 +247,12 @@ body {
       line-height: normal;
         font-size: 1rem;
     }
-    #team-picture img {
-        width: 90%;
-    }
 }
 /*        margen        */
 
 @media only screen and (max-width:992px) {
   #upper-text {
     margin-top:58px;
-    margin-bottom: 2em;
     float: left;
     width: 100%;
     height: auto;
@@ -251,7 +262,6 @@ body {
 @media only screen and (min-width:992px){
   #upper-text {
     margin-top:56px;
-    margin-bottom: 2em;
     float: left;
     width: 100%;
     height: auto;
@@ -288,25 +298,37 @@ body {
   }
 
   #team-picture {
-    float: left;
     width: 100%;
-    height: 25%;
+    height: auto;
     display: flex;
     flex-flow: column;
     justify-content: space-around;
     align-items: center;
   }
 
-  #team-picture img {
-    width: 86%;
+  #imText {
+    margin: 0;
+    width: 100%;
+    height: 15%;
+  }
+
+  #histH{
+    margin-top: 2%;
+  }
+
+  #imTeam {
+    margin: auto !important;
+    width: 100%;
   }
 
   .tex_img_b, .divtxt, .divimg{
     width: 100%;
   }
+
   .tex_img_b{
     height: 700px;
   }
+
   .divimg, .divtxt{
     width: 100%;
     height: 350px;
@@ -318,7 +340,6 @@ body {
     width: 100%;
     height: auto;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -328,6 +349,7 @@ body {
       padding: 0;
       margin: 0;
     }
+
     .divimg, .divtxt{
       width: 50%;
       height: 100%;
@@ -336,17 +358,16 @@ body {
     .histexti{
       padding: 1ex;
       flex-direction: column;
-      width: 25%;
+      width: 50%;
       height: 100%;
-
     }
-
 }
 
 .tmv{
   padding:10px;
   color: #fcf7f9;
 }
+
 /*      Media para texto de Mision y Vision*/
 @media only screen and (min-width:770px){
   .tmv{
@@ -366,57 +387,57 @@ body {
   }
 }
 /*      Media para texto de Mision y Vision*/
+
 /*      Media para texto de historia 1 y 2*/
 @media only screen and (max-width:892px){
   .histext{
     font-size: 18px;
   }
 }
-
-@media only screen and (min-width:1599px){
-    .histexti{
-      font-size: 1.6vw;
-    }
-}
-@media only screen and (max-width:1599px){
-    .histexti{
-      font-size: 23px;
-    }
-}
-@media only screen and (max-width:1472px){
-    .histexti{
-      font-size: 22px;
-    }
-}
-@media only screen and (max-width:1348px){
-    .histexti{
-      font-size: 21px;
-    }
-}
-@media only screen and (max-width:1119px){
+@media only screen and (min-width:1621px){
   .histexti{
-      font-size: 20px;
+    font-size: 30px;
   }
 }
-@media only screen and (max-width:983px){
-  .histexti{
-      font-size: 19px;
-  }
-
+@media only screen and (max-width:1621px){
+    .histexti{
+      font-size: 1.9vw;
+    }
 }
-@media only screen and (max-width:923px){
-  .histexti{
-      font-size: 18px;
-  }
+@media only screen and (max-width:1350px){
+    .histexti{
+      font-size: 1.9vw;
+    }
 }
-@media only screen and (max-width:827px){
-  .histexti{
+@media only screen and (max-width:1257px){
+    .histexti{
+      font-size: 2.1vw;
+    }
+}
+@media only screen and (max-width:1057px){
+    .histexti{
+      font-size: 2.2vw;
+    }
+}
+@media only screen and (max-width:957px){
+    .histexti{
+      font-size: 2.3vw;
+    }
+}
+@media only screen and (max-width:800px){
+    .histexti{
+      font-size: 2.4vw;
+    }
+}
+@media only screen and (max-width:600px){
+    .histexti{
       font-size: 17px;
-  }
+    }
 }
-@media only screen and (max-width:680px){
-  .histexti{
-      background-color: rgba(0, 0, 0, 0.5);
-  }
+@media only screen and (max-width:450px){
+    .histexti{
+      font-size: 16px;
+    }
 }
+
 /*      Media para texto de historia 1 y 2*/
