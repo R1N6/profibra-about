@@ -1,3 +1,8 @@
+/*      Fuentes de ortiz      */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+/*      Fuentes de ortiz      */
+
 body {
 }
 
@@ -21,11 +26,11 @@ body {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 
 #upper-text-text {
   background-color: #3d81b8;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fcf4f9;
   margin: 0;
   text-align: center;
@@ -65,13 +70,13 @@ body {
     height: 500px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+
 #histH{
   font-weight: bold;
   margin-top: 40%;
   text-align: center;
   color: #fcf4f9;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: italic;
 }
 #team-picture h3{
@@ -111,10 +116,10 @@ body {
     display: flex;
 }
 /*          LARA                */
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+
 
 .ftwi{
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   height: 100%;
   width: 100%;
@@ -180,14 +185,17 @@ body {
 }
 
 .tiMV{
+  font-family: 'Comfortaa',cursive;
   height: 5em;
   background-color: #080403;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,700;1,400&display=swap');
+#histH{
+  font-family: 'Comfortaa', cursive;
+}
 
 .mvt{
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Montserrat', sans-serif;
   border-width: 2px;
   border: solid;
   padding: 2ex;
@@ -199,10 +207,10 @@ body {
 #th2{
   float: right;
 }
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@800&display=swap');
+
 
 .histexti{
-  font-family: 'Changa', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
     text-align: justify;
     background-color: rgba(0, 0, 0, 0.5);
