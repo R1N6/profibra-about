@@ -49,7 +49,7 @@ var contadorclick = 0;
                 opacity: "1",   
             });
 
-            div_img_seleccionado.setAttribute("src","../image/productos/"+Nombre_IMG+"/"+Nombre_IMG+"1.JPG");        
+            div_img_seleccionado.setAttribute("src","../image/productos/"+Nombre_IMG+"/"+Nombre_IMG+"1.jpg");        
             ocultar_MarginMainContent.style.marginTop = "0";    
         } else {
             elemento_Div_Fondo_Contenedor.style.display = "none";
@@ -86,18 +86,18 @@ var contadorclick = 0;
         contadorclick++;
         //checar en que div estamos y en base a eso cargar la imagenes del div al que nos dirigimos
         if(contador_div_seleccionado==1){
-                div_contenedor_img_2.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Siguiente_Imagen+".JPG");
+                div_contenedor_img_2.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Siguiente_Imagen+".jpg");
 
             }
 
 
         if(contador_div_seleccionado==2){
-                div_contenedor_img_3.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Siguiente_Imagen+".JPG");
+                div_contenedor_img_3.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Siguiente_Imagen+".jpg");
             }
 
 
         if(contador_div_seleccionado==3){
-                div_contenedor_img_1.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Siguiente_Imagen+".JPG");
+                div_contenedor_img_1.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Siguiente_Imagen+".jpg");
 
             }
 
@@ -143,17 +143,17 @@ var contadorclick = 0;
 
         //checar en que div estamos y en base a eso cargar la imagenes del div al que nos dirigimos
         if(contador_div_seleccionado==1){
-                div_contenedor_img_3.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Anterior_Imagen+".JPG");
+                div_contenedor_img_3.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Anterior_Imagen+".jpg");
         }
 
 
         if(contador_div_seleccionado==2){
-                div_contenedor_img_1.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Anterior_Imagen+".JPG");
+                div_contenedor_img_1.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Anterior_Imagen+".jpg");
         }
 
 
         if(contador_div_seleccionado==3){
-                div_contenedor_img_2.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Anterior_Imagen+".JPG");
+                div_contenedor_img_2.setAttribute("src","../image/productos/"+Nombre_IMG_Global+"/"+Nombre_IMG_Global+contador_Carga_De_Anterior_Imagen+".jpg");
         }
         
         
