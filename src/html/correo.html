@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="container" id="corr">
-      <form action="#">
+      <form method="POST" name="contact_form" action="../php/correo.php">
        <div class="row">
          <div class="colI">
            <label for="fname">Nombre</label>
@@ -35,7 +35,7 @@
            <label for="fasunto">Mensaje</label>
          </div>
          <div class="colI">
-           <textarea id="fasunto" name="fasunto" placeholder="Escriba su mensaje" style="height:200px"></textarea>
+           <textarea id="fasunto" name="fasunto" placeholder="Escriba su mensaje" style="height:200px" required></textarea>
          </div>
        </div>
        <div class="row">
