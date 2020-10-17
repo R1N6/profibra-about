@@ -23,8 +23,7 @@ if(empty($_POST['fname'])  || empty($_POST['fmail']) || empty($_POST['fasunto'])
     mail($to,$email_subject,$email_body,$headers);
     echo'<script type="text/javascript">
     alert("¡Envio Exitoso!. Gracias por contactarnos. Te responderemos en la brevedad posible");
+    window.location.href="../html/correo.html";
     </script>';
-	//redireccionar a la pagina correspondiente.
-	header('Location: ../html/correo.html');
 }
 ?>
